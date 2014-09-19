@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [BlackOpsOne-Regular.ttf.ttx, src/BlackOpsOne-Regular.otf.ttx, src/BlackOpsOne-Regular-OTF.sfd,
+  src/BlackOpsOne-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
